@@ -1,0 +1,8 @@
+2026-10-28 21:48:44,106 [INFO] [EnterpriseETL]: Generating 500,000 synthetic enterprise transaction records...
+2026-10-28 21:48:53,079 [WARNING] [EnterpriseETL]: Injected 150 synthetic anomalies to test Pandera validation gate.
+2026-10-28 21:48:54,805 [WARNING] [EnterpriseETL]: Pandera SchemaGate intercepted 150 constraint violations in 1.704s
+2026-10-28 21:48:54,805 [INFO] [EnterpriseETL]: Quarantined 150 defective records to C:\Users\Anas\.gemini\antigravity-ide\scratch\sql-optimization-etl-pipeline\quarantine_anomalies.csv
+2026-10-28 21:48:55,022 [INFO] [EnterpriseETL]: Initialized schema 'EnterpriseOrders' in target database.
+2026-10-28 21:49:00,103 [INFO] [EnterpriseETL]: Successfully loaded 499,850 records into database in 5.08s (98,386 rows/s)
+2026-10-28 21:49:00,141 [INFO] [EnterpriseETL]: Creating composite covering index 'IX_EnterpriseOrders_Region_Status_Date'...
+2026-10-28 21:49:01,162 [INFO] [EnterpriseETL]: Database optimization indexes successfully created.
